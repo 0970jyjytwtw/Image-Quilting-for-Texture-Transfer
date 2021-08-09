@@ -8,7 +8,7 @@ texture_transfer.py is the original algorithm.
 ![Kiku](texture/corn.jpg)
 ![Kiku](output/saul_corn.jpg)
 
-texture_transfer_M.py is Modification. That is, only paste the texture's luminance and keep the original image's color. The texture_transfer.py pastes both texture's luminance and color.
+texture_transfer_M.py is a modification. It only paste the texture's luminance and keep the original image's color. The texture_transfer.py pastes both texture's luminance and color.
 ![Kiku](src_image/jeff.jpg)
 ![Kiku](texture/rice.jpg)
 ![Kiku](output/jeff_rice.jpg)
