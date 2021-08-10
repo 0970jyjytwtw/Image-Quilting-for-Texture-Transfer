@@ -3,6 +3,8 @@ This repo basically implement :
 
 Alexei A. Efros and William T. Freeman. 2001. Image quilting for texture synthesis and transfer. In Proceedings of the 28th annual conference on Computer graphics and interactive techniques (SIGGRAPH '01). Association for Computing Machinery, New York, NY, USA, 341–346. DOI:https://doi.org/10.1145/383259.383296
 
+This repo using image quilting to achieve the style transfer. 
+
 texture_transfer.py is the original algorithm.
 ![Kiku](src_image/saul.jpg)
 ![Kiku](texture/corn.jpg)
