@@ -231,7 +231,7 @@ if __name__ == '__main__':
     parser.add_argument('--outname', '-o', type=str, dest="outname", required=True, help='name of the output image')
     parser.add_argument('--overlap_len', type=int,default=10, help='the size of the overlap region between the patches')
     parser.add_argument('--patchsize', type=int, default=30, help='size of the patches')
-    parser.add_argument('--random', type=int, default=2, help='random choose patch in some similar patches, 0~9.\n\
+    parser.add_argument('--random', type=int, default=2, help='randomly choose the patch in some similar patches, 0~9.\n\
     This value becomes bigger, then #candicates of patches becomes larger.\n\
     0 is choose the most similar patch. That is #candicates of patches is one.')
 

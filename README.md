@@ -51,4 +51,4 @@ optional arguments:
                         size of the patches
 
   --random RANDOM      
-                        random choose patch in some similar patches, 0~9. This value becomes bigger, then #candicates of patches becomes larger. 0 is choose the most similar patch.That is #candicates of patches is one.
+                        randomly choose the patch in some similar patches, 0~9. This value becomes bigger, then #candicates of patches becomes larger. 0 means that choose the most similar patch. That is #candicates of patches is one.
