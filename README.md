@@ -6,14 +6,14 @@ Alexei A. Efros and William T. Freeman. 2001. Image quilting for texture synthes
 This repo using image quilting to achieve the style transfer. 
 
 texture_transfer.py is the original algorithm.
-![Kiku](src_image/saul.jpg)
-![Kiku](texture/corn.jpg)
-![Kiku](output/saul_corn.jpg)
+| source | texture |result|
+| :----: | :----: | :----: |
+![Kiku](src_image/saul.jpg)|![Kiku](texture/corn.jpg)|![Kiku](output/saul_corn.jpg)|
 
 texture_transfer_M.py is a modification. It only paste the texture's luminance and keep the original image's color. The texture_transfer.py pastes both texture's luminance and color.
-![Kiku](src_image/jeff.jpg)
-![Kiku](texture/rice.jpg)
-![Kiku](output/jeff_rice.jpg)
+| source | texture |result|
+| :----: | :----: | :----: |
+|![Kiku](src_image/jeff.jpg)|![Kiku](texture/rice.jpg)|![Kiku](output/jeff_rice.jpg)
 
   
 
